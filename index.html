@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="searchbox.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="icon" type="image/ico" href="images/lol.ico.png" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="wrap">
+        <div class="widget">
+            <div class="date">
+                <p id="dayWeek" class="dayWeek"></p>
+                <p id="day" class="day"></p>
+                <!--<p>de</p>-->
+                <p id="month" class="month"></p>
+                <!--<p>del</p>-->
+                <p id="year" class="year"></p>
+            </div> 
+            <div class="salute">
+                <p id="greeting" class="greeting"></p>
+            </div>
+            <div class="clock">
+                <p id="hours" class="hours"></p>
+                <p>:</p>
+                <p id="minutes" class="minutes"></p>
+                <p>:</p>
+                <div class="seconds-box">
+                    <p id="ampm" class="ampm"></p>
+                    <p id="seconds" class="seconds"></p>
+                </div>
+            </div>
+            <div class="container">
+                <form action="https://www.google.com/search" method="GET">
+                <input type="text" class="input" name="q" autocomplete="off" placeholder="Google Search">
+                <div class="close-btn">&times;</div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="clock.js"></script>
+    
+
+    
+
+</body>
+
+<footer>
+
+
+
+</footer>
+
+</html>
