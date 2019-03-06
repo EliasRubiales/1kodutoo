@@ -1,0 +1,65 @@
+.container{
+    width: 100%;
+    height: 20px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 84px;
+    background: rgba(0, 0, 0, .0);
+}
+
+.input{
+    width: 50%;
+    height: 5px;
+    border: 2px solid #fff;
+    background: rgba(0, 0, 0, .2);
+    padding: 15px 30px;
+    border-radius: 50px;
+    outline: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: #fff;
+    
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 2.5px;
+    font-weight: bold;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.close-btn{
+    position: absolute;
+    right: 590px;
+    top: 326px;
+    font-size: 35px;
+    cursor: pointer;
+    color: #fff;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+  
+.close-btn.active{
+    opacity: 1;
+    animation: animate 0.5s linear;
+}
+  
+@keyframes animate{
+    0%{
+      transform: scale(1);
+    }
+    25%{
+      transform: scale(1.2);
+    }
+    50%{
+      transform: scale(1.5);
+    }
+    75%{
+      transform: scale(1.2);
+    }
+    100%{
+      transform: scale(1);
+    }
+}
