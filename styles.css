@@ -1,0 +1,70 @@
+body {
+    background: url(images/background.png) #000;
+    background-size: cover;
+    color: #fff;
+    font-size: 16px;
+}
+
+.wrap {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.widget {
+    width: 70%;
+    margin: 32px;
+}
+
+.widget p {
+    display: inline-block;
+    line-height: 8px;
+}
+
+.date {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 26px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    margin-bottom: 5px;
+    background: rgba(0, 0, 0, .0);
+    padding: 20px;
+    width: 100%;
+    height: 20px;
+}
+
+.clock {
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    height: 20px;
+    padding: 20px;
+    font-size: 68px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-align: center;
+    background: rgba(0, 0, 0, .0);
+}
+
+.clock .seconds-box {
+    display: inline-block;
+}
+
+.clock .seconds, .clock .ampm {
+    font-size: 24px;
+    display: block;
+}
+
+.salute {
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, .0);
+    margin-bottom: 5px;
+}
+
+.greeting {
+    font-family: 'Lato', sans-serif;
+    font-size: 54px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
